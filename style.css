@@ -224,6 +224,9 @@ footer .text-light-gray {
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  * {
+    font-size: 14px;
+  }
   body {
     padding: 10px;
   }
