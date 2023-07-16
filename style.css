@@ -134,7 +134,7 @@ main {
   background: #ff900e;
   padding: 46px 42px;
   text-align: center;
-  width: 342px;
+  max-width: 342px;
   position: relative;
   bottom: 90px;
 }
@@ -224,6 +224,10 @@ footer .text-light-gray {
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {
+  body {
+    padding: 10px;
+  }
+
   header {
     padding: 20px;
   }
@@ -233,6 +237,9 @@ footer .text-light-gray {
   .facts-card-container,
   .sponsors-img-container {
     flex-direction: column;
+  }
+  nav li {
+    margin-right: 20px;
   }
   .teams-img-container {
     grid-template-columns: 1fr;
@@ -244,6 +251,9 @@ footer .text-light-gray {
   .ten-years-badge {
     position: static;
     max-width: 300px;
+  }
+  .facts {
+    margin-top: 1rem;
   }
   .teams-content,
   .facts-card-container {
