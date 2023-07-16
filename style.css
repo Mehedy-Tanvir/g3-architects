@@ -5,10 +5,10 @@
   font-family: "Work Sans", sans-serif;
 }
 .btn-primary {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #ff900e;
   border: none;
-  padding: 20px 25px;
+  padding: 1.25rem 1.5625rem;
   color: #fff;
   font-size: 1.25rem;
   cursor: pointer;
@@ -27,7 +27,7 @@
 /* header styles */
 header {
   background: rgba(255, 144, 14, 0.1);
-  padding: 50px 240px;
+  padding: 3.125rem 15rem;
 }
 nav {
   display: flex;
@@ -40,7 +40,7 @@ nav > ul {
 }
 nav li {
   list-style: none;
-  margin-right: 30px;
+  margin-right: 1.875rem;
   font-weight: 500;
   font-size: 1rem;
 }
@@ -50,7 +50,7 @@ nav li a {
 }
 /* banner styles */
 .banner-content {
-  max-width: 800px;
+  max-width: 50rem;
   text-align: center;
   margin: 0 auto;
 }
@@ -66,12 +66,12 @@ nav li a {
   margin-bottom: 2rem;
 }
 .banner img {
-  margin-top: 20px;
+  margin-top: 1.25rem;
   width: 100%;
 }
 /* main styles */
 main {
-  max-width: 1440px;
+  max-width: 90rem;
   margin: 0 auto;
 }
 /* teams styles */
@@ -86,8 +86,8 @@ main {
   padding-top: 5.313rem;
 }
 .teams-content {
-  padding-right: 70px;
-  padding-left: 70px;
+  padding-right: 4.375rem;
+  padding-left: 4.375rem;
 }
 .teams-title {
   font-size: 2.8rem;
@@ -107,36 +107,36 @@ main {
 /* feature section styles */
 .features {
   display: flex;
-  margin-top: 130px;
-  gap: 100px;
+  margin-top: 8.125rem;
+  gap: 6.25rem;
 }
 .feature-content p {
   margin-bottom: 1.9rem;
 }
 .features .section-title {
-  border-left: 5px solid #ff900e;
-  padding-left: 20px;
+  border-left: 0.3125rem solid #ff900e;
+  padding-left: 1.25rem;
   margin-bottom: 1.5rem;
 }
 .feature-content .card {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #fff;
-  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-  padding: 30px;
-  margin-bottom: 20px;
+  box-shadow: 0rem 0.25rem 1.875rem 0rem rgba(0, 0, 0, 0.06);
+  padding: 1.875rem;
+  margin-bottom: 1.25rem;
 }
 .feature-img img {
   height: 80%;
-  margin-left: 90px;
+  margin-left: 5.625rem;
 }
 .ten-years-badge {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   background: #ff900e;
-  padding: 46px 42px;
+  padding: 2.875rem 2.625rem;
   text-align: center;
-  max-width: 342px;
+  max-width: 21.375rem;
   position: relative;
-  bottom: 90px;
+  bottom: 5.625rem;
 }
 .ten-years-badge h2 {
   color: #fff;
@@ -144,14 +144,14 @@ main {
   font-size: 4.063rem;
   font-style: normal;
   font-weight: 700;
-  line-height: 70px;
+  line-height: 4.375rem;
 }
 .ten-years-badge p {
   color: #fff;
   font-size: 1.56rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 40px;
+  line-height: 2.5rem;
 }
 /* facts section */
 .facts-card-container {
@@ -167,22 +167,22 @@ main {
   margin-top: 1.5rem;
 }
 .facts-card-container .card {
-  border-radius: 8px;
+  border-radius: 0.5rem;
   border: 1px solid #ff900e;
   text-align: center;
   font-size: 2.8rem;
-  padding: 30px;
+  padding: 1.875rem;
 }
 .facts-card-container .card-title {
   font-weight: 600;
   font-size: 1.25rem;
-  margin-top: 5px;
+  margin-top: 0.3125rem;
 }
 .facts-card-container .card-stats {
   font-size: 2.8rem;
   color: #424242;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
 }
 /* sponsors styles */
 .sponsors {
@@ -196,13 +196,13 @@ main {
 .sponsors-img-container {
   display: flex;
   justify-content: space-evenly;
-  margin-top: 50px;
+  margin-top: 3.125rem;
   align-items: center;
-  gap: 40px;
+  gap: 2.5rem;
   margin-bottom: 8.125rem;
 }
 .sponsors-img-container img {
-  width: 165px;
+  width: 10.3125rem;
 }
 /* footer styles  */
 footer {
@@ -224,9 +224,6 @@ footer .text-light-gray {
 /* responsive styles */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-  * {
-    font-size: 14px;
-  }
   body {
     padding: 10px;
   }
@@ -253,7 +250,7 @@ footer .text-light-gray {
   }
   .ten-years-badge {
     position: static;
-    max-width: 300px;
+    max-width: 100%;
   }
   .facts {
     margin-top: 1rem;
@@ -270,7 +267,7 @@ footer .text-light-gray {
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
   header {
-    padding: 50px;
+    padding: 0px;
   }
   nav,
   .teams-container,
