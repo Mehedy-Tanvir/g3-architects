@@ -266,17 +266,58 @@ footer .text-light-gray {
 }
 /* tablet devices */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+  body {
+    padding: 10px;
+  }
+
   header {
-    padding: 0px;
+    padding: 20px;
   }
   nav,
   .teams-container,
-  .facts-card-container,
   .features,
+  .facts-card-container,
   .sponsors-img-container {
     flex-direction: column;
   }
+  nav li {
+    margin-right: 20px;
+  }
   .teams-img-container {
     grid-template-columns: 1fr;
+  }
+  .feature-img img {
+    width: 100%;
+    margin-left: 0;
+  }
+  .ten-years-badge {
+    position: static;
+    max-width: 100%;
+  }
+  .facts {
+    margin-top: 1rem;
+  }
+  .teams-content,
+  .facts-card-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .facts-card-container {
+    gap: 20px;
+  }
+  .card-title {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .teams-content {
+    text-align: center;
+  }
+  .section-title {
+    text-align: center;
+  }
+  .facts .text-light-gray {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
